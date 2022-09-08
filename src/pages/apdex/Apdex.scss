@@ -1,0 +1,12 @@
+
+.apdex-container {
+    display: grid;
+    width: calc(100vw - 8em);
+    grid-template-columns: 1200px 120px;
+}
+
+@media (max-width: 1320px) {
+    .apdex-container {
+        grid-template-columns: 80vw 20vw;
+    }
+}
